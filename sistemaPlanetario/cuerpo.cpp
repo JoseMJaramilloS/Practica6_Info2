@@ -86,8 +86,8 @@ void cuerpo::calcularAceleracion(cuerpo cuerpo2)
     double theta= atan2(y2-posy,x2-posx); // theta en radianes
     this->ax +=(G*m2)/r2*cos(theta);
     this->ay +=(G*m2)/r2*sin(theta);
-    cout<<"aceleracion en x: "<<ax<<endl;
-    cout<<"aceleracion en y: "<<ay<<endl;
+//    cout<<"aceleracion en x: "<<ax<<endl;
+//    cout<<"aceleracion en y: "<<ay<<endl;
 }
 
 void cuerpo::calcularVelocidad()

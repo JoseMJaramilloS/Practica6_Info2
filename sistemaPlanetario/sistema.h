@@ -16,7 +16,7 @@ public:
     sistema();
     void agregarCuerpo(cuerpo cuerpo_);
     void actualizarMovimiento();
-    void generarArchivo(unsigned int iteraciones);
+    void generarArchivo(string nombre,unsigned int iteraciones);
 };
 
 #endif // SISTEMA_H
