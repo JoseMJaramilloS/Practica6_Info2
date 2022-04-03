@@ -18,14 +18,13 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
     cuerpo.cpp \
     main.cpp \
-    mainwindow.cpp
+    sistema.cpp
 
 HEADERS += \
     cuerpo.h \
-    mainwindow.h
+    sistema.h
 
-FORMS += \
-    mainwindow.ui
+FORMS +=
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
