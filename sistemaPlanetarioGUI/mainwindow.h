@@ -26,10 +26,6 @@ private slots:
     void on_btnPlay_clicked();
     void on_btnStop_clicked();
     void on_horizontalSlider_valueChanged(int value);
-
-
-
-
     void on_btnAgregar_clicked();
 
 private:

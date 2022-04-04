@@ -78,7 +78,7 @@ cuerpo::cuerpo(double posx_, double posy_, double velx_, double vely_, double ma
     this->ax=0;
     this->ay=0;
     setPos(800/2+posx*factor,800/2-posy*factor); // Se multiplica por el factor
-    this->color=randomColor();
+    this->color=randomColor(); // Se le da un color diferente
 }
 
 void cuerpo::calcularAceleracion(cuerpo *cuerpo2)

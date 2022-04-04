@@ -23,8 +23,8 @@ private:
     double ay;
     double radio;
     double masa;
-    double factor =0.04; // 400/10000 : graphicsView/realidad
-    QColor color;
+    double factor =0.04; // 400/10000 : dimensiones graphicsView/realidad
+    QColor color; // Color del cuerpo
 
 public:
     cuerpo();
@@ -36,7 +36,7 @@ public:
 
     virtual QRectF boundingRect() const;
     void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget = nullptr);
-    QColor randomColor();
+    QColor randomColor(); // Generador de colores aleatorios
 
     double getPosx() const;
     void setPosx(double value);
