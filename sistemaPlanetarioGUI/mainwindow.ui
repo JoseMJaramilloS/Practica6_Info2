@@ -107,7 +107,7 @@
     <property name="geometry">
      <rect>
       <x>840</x>
-      <y>90</y>
+      <y>60</y>
       <width>114</width>
       <height>23</height>
      </rect>
@@ -122,7 +122,7 @@
     <property name="geometry">
      <rect>
       <x>840</x>
-      <y>60</y>
+      <y>30</y>
       <width>81</width>
       <height>21</height>
      </rect>
@@ -140,7 +140,7 @@
     <property name="geometry">
      <rect>
       <x>1000</x>
-      <y>60</y>
+      <y>30</y>
       <width>81</width>
       <height>21</height>
      </rect>
@@ -158,7 +158,7 @@
     <property name="geometry">
      <rect>
       <x>1000</x>
-      <y>90</y>
+      <y>60</y>
       <width>114</width>
       <height>23</height>
      </rect>
@@ -173,7 +173,7 @@
     <property name="geometry">
      <rect>
       <x>1000</x>
-      <y>160</y>
+      <y>130</y>
       <width>81</width>
       <height>21</height>
      </rect>
@@ -191,7 +191,7 @@
     <property name="geometry">
      <rect>
       <x>1000</x>
-      <y>190</y>
+      <y>160</y>
       <width>114</width>
       <height>23</height>
      </rect>
@@ -206,7 +206,7 @@
     <property name="geometry">
      <rect>
       <x>840</x>
-      <y>190</y>
+      <y>160</y>
       <width>114</width>
       <height>23</height>
      </rect>
@@ -221,7 +221,7 @@
     <property name="geometry">
      <rect>
       <x>840</x>
-      <y>160</y>
+      <y>130</y>
       <width>81</width>
       <height>21</height>
      </rect>
@@ -239,7 +239,7 @@
     <property name="geometry">
      <rect>
       <x>1000</x>
-      <y>290</y>
+      <y>260</y>
       <width>114</width>
       <height>23</height>
      </rect>
@@ -254,7 +254,7 @@
     <property name="geometry">
      <rect>
       <x>840</x>
-      <y>290</y>
+      <y>260</y>
       <width>114</width>
       <height>23</height>
      </rect>
@@ -269,7 +269,7 @@
     <property name="geometry">
      <rect>
       <x>840</x>
-      <y>260</y>
+      <y>230</y>
       <width>81</width>
       <height>21</height>
      </rect>
@@ -287,7 +287,7 @@
     <property name="geometry">
      <rect>
       <x>1000</x>
-      <y>260</y>
+      <y>230</y>
       <width>81</width>
       <height>21</height>
      </rect>
@@ -304,10 +304,10 @@
    <widget class="QPushButton" name="btnAgregar">
     <property name="geometry">
      <rect>
-      <x>910</x>
-      <y>370</y>
-      <width>131</width>
-      <height>71</height>
+      <x>840</x>
+      <y>310</y>
+      <width>121</width>
+      <height>61</height>
      </rect>
     </property>
     <property name="font">
@@ -317,6 +317,108 @@
     </property>
     <property name="text">
      <string>Agregar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnBorrarTodos">
+    <property name="geometry">
+     <rect>
+      <x>990</x>
+      <y>390</y>
+      <width>121</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Borrar todos</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>500</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <item>
+     <property name="text">
+      <string>Sistema 1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sistema 2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sistema 3</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="btnSistema">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>500</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Crear</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>460</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Sistemas predeterminados</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnBorrar">
+    <property name="geometry">
+     <rect>
+      <x>989</x>
+      <y>310</y>
+      <width>121</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Borrar</string>
     </property>
    </widget>
   </widget>

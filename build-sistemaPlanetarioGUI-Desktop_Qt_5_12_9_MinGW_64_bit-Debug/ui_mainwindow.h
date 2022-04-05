@@ -11,6 +11,7 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QComboBox>
 #include <QtWidgets/QGraphicsView>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
@@ -45,6 +46,11 @@ public:
     QLabel *label_6;
     QLabel *label_7;
     QPushButton *btnAgregar;
+    QPushButton *btnBorrarTodos;
+    QComboBox *comboBox;
+    QPushButton *btnSistema;
+    QLabel *label_8;
+    QPushButton *btnBorrar;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -84,58 +90,81 @@ public:
         label->setFont(font1);
         linePosx = new QLineEdit(centralwidget);
         linePosx->setObjectName(QString::fromUtf8("linePosx"));
-        linePosx->setGeometry(QRect(840, 90, 114, 23));
+        linePosx->setGeometry(QRect(840, 60, 114, 23));
         linePosx->setFont(font1);
         label_2 = new QLabel(centralwidget);
         label_2->setObjectName(QString::fromUtf8("label_2"));
-        label_2->setGeometry(QRect(840, 60, 81, 21));
+        label_2->setGeometry(QRect(840, 30, 81, 21));
         label_2->setFont(font1);
         label_3 = new QLabel(centralwidget);
         label_3->setObjectName(QString::fromUtf8("label_3"));
-        label_3->setGeometry(QRect(1000, 60, 81, 21));
+        label_3->setGeometry(QRect(1000, 30, 81, 21));
         label_3->setFont(font1);
         linePosy = new QLineEdit(centralwidget);
         linePosy->setObjectName(QString::fromUtf8("linePosy"));
-        linePosy->setGeometry(QRect(1000, 90, 114, 23));
+        linePosy->setGeometry(QRect(1000, 60, 114, 23));
         linePosy->setFont(font1);
         label_4 = new QLabel(centralwidget);
         label_4->setObjectName(QString::fromUtf8("label_4"));
-        label_4->setGeometry(QRect(1000, 160, 81, 21));
+        label_4->setGeometry(QRect(1000, 130, 81, 21));
         label_4->setFont(font1);
         lineVely = new QLineEdit(centralwidget);
         lineVely->setObjectName(QString::fromUtf8("lineVely"));
-        lineVely->setGeometry(QRect(1000, 190, 114, 23));
+        lineVely->setGeometry(QRect(1000, 160, 114, 23));
         lineVely->setFont(font1);
         lineVelx = new QLineEdit(centralwidget);
         lineVelx->setObjectName(QString::fromUtf8("lineVelx"));
-        lineVelx->setGeometry(QRect(840, 190, 114, 23));
+        lineVelx->setGeometry(QRect(840, 160, 114, 23));
         lineVelx->setFont(font1);
         label_5 = new QLabel(centralwidget);
         label_5->setObjectName(QString::fromUtf8("label_5"));
-        label_5->setGeometry(QRect(840, 160, 81, 21));
+        label_5->setGeometry(QRect(840, 130, 81, 21));
         label_5->setFont(font1);
         lineRadio = new QLineEdit(centralwidget);
         lineRadio->setObjectName(QString::fromUtf8("lineRadio"));
-        lineRadio->setGeometry(QRect(1000, 290, 114, 23));
+        lineRadio->setGeometry(QRect(1000, 260, 114, 23));
         lineRadio->setFont(font1);
         lineMasa = new QLineEdit(centralwidget);
         lineMasa->setObjectName(QString::fromUtf8("lineMasa"));
-        lineMasa->setGeometry(QRect(840, 290, 114, 23));
+        lineMasa->setGeometry(QRect(840, 260, 114, 23));
         lineMasa->setFont(font1);
         label_6 = new QLabel(centralwidget);
         label_6->setObjectName(QString::fromUtf8("label_6"));
-        label_6->setGeometry(QRect(840, 260, 81, 21));
+        label_6->setGeometry(QRect(840, 230, 81, 21));
         label_6->setFont(font1);
         label_7 = new QLabel(centralwidget);
         label_7->setObjectName(QString::fromUtf8("label_7"));
-        label_7->setGeometry(QRect(1000, 260, 81, 21));
+        label_7->setGeometry(QRect(1000, 230, 81, 21));
         label_7->setFont(font1);
         btnAgregar = new QPushButton(centralwidget);
         btnAgregar->setObjectName(QString::fromUtf8("btnAgregar"));
-        btnAgregar->setGeometry(QRect(910, 370, 131, 71));
+        btnAgregar->setGeometry(QRect(840, 310, 121, 61));
         QFont font2;
         font2.setPointSize(14);
         btnAgregar->setFont(font2);
+        btnBorrarTodos = new QPushButton(centralwidget);
+        btnBorrarTodos->setObjectName(QString::fromUtf8("btnBorrarTodos"));
+        btnBorrarTodos->setGeometry(QRect(990, 390, 121, 61));
+        btnBorrarTodos->setFont(font2);
+        comboBox = new QComboBox(centralwidget);
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->setObjectName(QString::fromUtf8("comboBox"));
+        comboBox->setGeometry(QRect(840, 500, 141, 41));
+        comboBox->setFont(font1);
+        btnSistema = new QPushButton(centralwidget);
+        btnSistema->setObjectName(QString::fromUtf8("btnSistema"));
+        btnSistema->setGeometry(QRect(1000, 500, 91, 41));
+        btnSistema->setFont(font1);
+        label_8 = new QLabel(centralwidget);
+        label_8->setObjectName(QString::fromUtf8("label_8"));
+        label_8->setGeometry(QRect(840, 460, 201, 31));
+        label_8->setFont(font1);
+        btnBorrar = new QPushButton(centralwidget);
+        btnBorrar->setObjectName(QString::fromUtf8("btnBorrar"));
+        btnBorrar->setGeometry(QRect(989, 310, 121, 61));
+        btnBorrar->setFont(font2);
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
@@ -163,6 +192,14 @@ public:
         label_6->setText(QApplication::translate("MainWindow", "Masa", nullptr));
         label_7->setText(QApplication::translate("MainWindow", "Radio", nullptr));
         btnAgregar->setText(QApplication::translate("MainWindow", "Agregar", nullptr));
+        btnBorrarTodos->setText(QApplication::translate("MainWindow", "Borrar todos", nullptr));
+        comboBox->setItemText(0, QApplication::translate("MainWindow", "Sistema 1", nullptr));
+        comboBox->setItemText(1, QApplication::translate("MainWindow", "Sistema 2", nullptr));
+        comboBox->setItemText(2, QApplication::translate("MainWindow", "Sistema 3", nullptr));
+
+        btnSistema->setText(QApplication::translate("MainWindow", "Crear", nullptr));
+        label_8->setText(QApplication::translate("MainWindow", "Sistemas predeterminados", nullptr));
+        btnBorrar->setText(QApplication::translate("MainWindow", "Borrar", nullptr));
     } // retranslateUi
 
 };

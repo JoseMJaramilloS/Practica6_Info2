@@ -20,13 +20,18 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
     void agregarCuerpo(double posx_,double posy_, double velx_, double vely_, double masa_, double radio_);
-
+    void menuDesplegable_seleccionar();
 private slots:
     void actualizarMovimiento();
     void on_btnPlay_clicked();
     void on_btnStop_clicked();
     void on_horizontalSlider_valueChanged(int value);
     void on_btnAgregar_clicked();
+    void on_btnBorrarTodos_clicked();
+
+    void on_btnSistema_clicked();
+
+    void on_btnBorrar_clicked();
 
 private:
     Ui::MainWindow *ui;
